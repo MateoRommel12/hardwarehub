@@ -1,0 +1,51 @@
+.navbar {
+    margin-bottom: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+  
+  
+  .col-lg-6 {
+    background-color: rgba(61, 133, 78, 0.5); /* Adjust the alpha value (0.5) as needed */
+    padding: 20px 20px 20px; /* Top padding increased to 40px */
+    border-radius: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+.map{
+   margin-left: 60px;
+   margin-top: 20px;
+   
+}
+.btn{
+    background-color: orangered;
+    border-radius: 10px;
+}
+.contact-section {
+    background-image: url('bg.png'); /* Add your background image URL here */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative; /* Keep it relative */
+    width: 100%; /* Occupy the full width */
+    max-height: calc(100vh - 56px); /* Set maximum height to fit viewport height minus navbar height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.container2 {
+    width: 75%; /* Adjust width as needed */
+    margin: auto; /* Center the container horizontally */
+}
+
+@media (max-width: 768px) {
+  .col-lg-6 {
+    margin-left: 0; /* Reset margin left */
+  }
+  .map {
+    margin-left: 0; /* Reset margin left */
+  }
+}

@@ -1,0 +1,128 @@
+/* Custom CSS styles */
+
+/* Adjusting margins for the header */
+.navbar-collapse{
+  margin-bottom: 0px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.navbar {
+  margin-bottom: 0px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+/* Styling the main heading */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styling the welcome section */
+.bg-dark {
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+.container {
+
+
+  padding: 20px;
+  height: 40vh;
+
+
+}
+/* Styling the login and register forms */
+.form-box {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Styling form inputs */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Styling the Get Started button */
+#getStartedBtn {
+  margin-top: 20px;
+  background-color: orangered;
+  border-radius: 20px;
+}
+
+/* Styling the footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+}
+
+.form-container{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  position: fixed;
+  bottom: 450px;
+  top: 20px;
+}
+.text-center{
+  color: black;
+}
+
+.mt-5{
+ 
+    text-align: left;
+    margin-top: 80px;
+    margin-right: 80px;
+    font-size: 80px;
+    color: #123119;
+  
+}
+.py-5{
+  background-color: #123119;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.form-check-label{
+  color: black;
+}
+
+.navbar-brand{
+  font-weight: 800;
+}
+.nav-btn img {
+  margin-right: 5px; /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+
+h2{
+  text-align: center;
+}
+
+body {
+  background-color: #f2f2f2; /* gray background */
+}
+
+.navbar {
+  background-color: yellow !important; /* yellow navigation bar */
+}
